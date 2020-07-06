@@ -1,0 +1,18 @@
+---
+- src: hugomrdias.thumbor
+- src: aalaesar.install_nextcloud
+- src: geerlingguy.nginx
+- src: geerlingguy.pip
+- src: geerlingguy.docker
+- src: geerlingguy.certbot
+- src: Datadog.datadog
+- src: geerlingguy.filebeat
+- src: geerlingguy.php
+- src: geerlingguy.composer
+- src: brianshumate.consul
+- src: geerlingguy.java
+- src: geerlingguy.elasticsearch
+- src: geerlingguy.logstash
+- src: geerlingguy.kibana
+- src: geerlingguy.nodejs
+- src: geerlingguy.haproxy

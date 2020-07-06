@@ -1,0 +1,11 @@
+version: "3"
+services:
+  test:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    working_dir: /root/playbooks
+    volumes:
+      - /Users/quable/Projets/quable-ansible:/root/playbooks
+      - ~/.ssh_docker:/root/.ssh:ro
+    command: tail -f /dev/null
