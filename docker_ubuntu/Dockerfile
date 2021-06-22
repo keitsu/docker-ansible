@@ -1,4 +1,5 @@
-FROM ubuntu:16.04
+FROM ubuntu:21.10
+
 
 WORKDIR /root/playbooks
 
@@ -11,7 +12,7 @@ RUN apt-get install -y \
     telnet \
     ansible \
     git \
-    python-pip
+    python3-pip
 
 RUN pip install --upgrade pip
 RUN mkdir /var/run/sshd
